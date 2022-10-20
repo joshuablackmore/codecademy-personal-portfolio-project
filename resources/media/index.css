@@ -1,0 +1,149 @@
+body {
+    font-family: monospace, sans-serif;
+    font-size: 16px;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+/* Nav CSS */ 
+
+.nav-container {
+    border: 3px solid blue;
+
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.nav-items {
+    border: 3px solid pink;
+
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
+}
+
+.nav-item {
+    padding: 10px;
+    font-size: 1.1em;
+}
+
+.logo {
+    width: 75px;
+    height: auto;
+    margin: 5px 10px;
+}
+
+
+/* About CSS */ 
+.about-container {
+    border: 2px solid red;
+
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.mug-shot {
+    width: 300px;
+    height: auto;
+    border-radius: 100%;
+    margin: 5px 20px;
+}
+
+/* Skills CSS */
+
+#skills {
+
+    border: 1px solid pink;
+    margin-top: 30px;
+}
+
+.skills-container {
+    border: 2px solid red;
+
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fa-solid, .fa-brands {
+    font-size: 2.5em;
+}
+
+/* Projects CSS */
+
+.projects-container {
+    border: 2px solid red;
+
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.date {
+    border: 1px solid purple;
+
+    margin-top: 20px;    
+    background-color: black;
+    color: antiquewhite;
+    border-radius: 4px;
+}
+
+
+
+#troyka-close, #strobes-close {
+    display: none;
+    background-color: red;
+    color: antiquewhite;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+
+.troyka-container, .strobes-container, .size-container {
+    display: block;
+    /*border: 1px solid black;*/
+    margin-top: 20px; 
+    width: 560px;
+    height: 315px;
+    
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 20px;
+}
+
+.troyka-container, .strobes-container, .size-container {
+    display: none;
+   
+}
+
+
+#video-troyka {
+    margin: auto;
+}
+
+.socials-container {
+    border: 2px solid red;
+
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+
+}
