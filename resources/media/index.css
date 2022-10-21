@@ -117,7 +117,7 @@ h1 {
 
 
 
-#troyka-close, #strobes-close, #size-close {
+#troyka-close, #strobes-close, #size-close, #oasis-close {
     display: none;
     background-color: red;
     color: antiquewhite;
@@ -127,7 +127,7 @@ h1 {
 }
 
 
-.troyka-container, .strobes-container, .size-container {
+.troyka-container, .strobes-container, .size-container, .oasis-container {
     display: block;
     /*border: 1px solid black;*/
     margin-top: 20px; 
@@ -140,7 +140,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-.troyka-container, .strobes-container, .size-container {
+.troyka-container, .strobes-container, .size-container, .oasis-container {
     display: none;
    
 }

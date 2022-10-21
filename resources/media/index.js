@@ -65,3 +65,22 @@ let closeSizeBiog = function() {
 
 readMoreSize.addEventListener('click', openSizeBiog);
 closeSize.addEventListener('click', closeSizeBiog);
+
+// Oasis box open and close
+
+let readMoreOasis = document.getElementById('read-more-oasis');
+let oasisBiog = document.getElementById('oasis-biog');
+let closeOasis = document.getElementById('oasis-close');
+
+let openOasisBiog = function() {
+    oasisBiog.style.display = 'block';
+    closeOasis.style.display = 'block';
+}
+
+let closeOasisBiog = function() {
+    oasisBiog.style.display = 'none';
+    closeOasis.style.display = 'none';
+}
+
+readMoreOasis.addEventListener('click', openOasisBiog);
+closeOasis.addEventListener('click', closeOasisBiog);
