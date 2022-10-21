@@ -46,3 +46,22 @@ let closeStrobesBiog = function() {
 
 readMoreStrobes.addEventListener('click', openStrobesBiog);
 closeStrobes.addEventListener('click', closeStrobesBiog);
+
+//SiZE box open and close
+
+let readMoreSize = document.getElementById('read-more-size');
+let sizeBiog = document.getElementById('size-biog');
+let closeSize = document.getElementById('size-close');
+
+let openSizeBiog = function() {
+    sizeBiog.style.display = 'block';
+    closeSize.style.display = 'block';
+}
+
+let closeSizeBiog = function() {
+    sizeBiog.style.display = 'none';
+    closeSize.style.display = 'none';
+}
+
+readMoreSize.addEventListener('click', openSizeBiog);
+closeSize.addEventListener('click', closeSizeBiog);
