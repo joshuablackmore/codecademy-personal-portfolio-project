@@ -14,6 +14,7 @@ h1 {
 
 .drumming-p {
     font-weight: 600;
+    font-size: 1.1em;
 }
 
 
@@ -113,6 +114,29 @@ h1 {
     font-size: 2.5em;
 }
 
+
+@keyframes yourAnimation{
+    0% {
+        transform:  translate(0,0);
+    }
+    25% {
+        transform:  translate(0,-20px) rotate(5deg);
+    }
+    50% {
+        transform:  translate(0,-5px);
+    }
+    75% {
+        transform:  translate(0,-15px) rotate(-5deg);
+    }
+    100% {
+        transform:  translate(0,0);
+    }
+}
+
+#fa-drum {
+    animation: yourAnimation 3s ease-in-out 0s infinite normal none;
+}
+
 /* Projects CSS */
 
 .projects-container {
@@ -195,7 +219,22 @@ h1 {
 
 .fa-instagram {
     color: mediumvioletred;
+    transition: transform 0.5s, color 0.5s;
+    
+
 }
+
+.fa-instagram:hover {
+    color: purple;
+    /*padding-bottom: 20px;*/
+    transform: rotate(180deg);
+
+}
+
+
+
+
+
 
 /* Footer CSS */
 
