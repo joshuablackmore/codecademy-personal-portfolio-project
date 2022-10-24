@@ -267,7 +267,7 @@ h1 {
 .date, #oasis-close, #troyka-close, #strobes-close, #size-close {
     
     padding: 10px;
-    
+    border: 1px solid #FF3972;
     margin: 20px 0;    
     background-color: white;
     color: black;
