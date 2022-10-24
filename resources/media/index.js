@@ -75,11 +75,15 @@ let closeOasis = document.getElementById('oasis-close');
 let openOasisBiog = function() {
     oasisBiog.style.display = 'block';
     closeOasis.style.display = 'block';
+    readMoreOasis.style.display = 'none';
+    
 }
 
 let closeOasisBiog = function() {
     oasisBiog.style.display = 'none';
     closeOasis.style.display = 'none';
+    readMoreOasis.style.display = 'block';
+
 }
 
 readMoreOasis.addEventListener('click', openOasisBiog);
