@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--this is the hamburger icon link-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
@@ -15,20 +18,25 @@
 <body>
     <nav class="nav-container">
         <img class="logo" src="resources/media/Joshua Blackmore - icon - pink.png" alt="my logo">
-        <ul class="nav-items">
-            <li class="nav-item">
+        <ul class="nav-items" id="nav-items">
+            <li class="nav-item" id="nav-item">
                 <a href="#about">About</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" id="nav-item">
                 <a href="#skills">Skills</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" id="nav-item">
                 <a href="#projects">Projects</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" id="nav-item">
                 <a href="#socials">Socials</a>
             </li>
         </ul>
+        <button class="hamburger">
+            <i class="menuIcon material-icons">menu</i>
+            <i class="closeIcon material-icons">close</i>
+
+        </button>
     </nav>
     <main>
         <section id="about">

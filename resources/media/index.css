@@ -40,6 +40,66 @@ h1 {
 
 /* Nav CSS */ 
 
+/*hamburger stuff*/
+
+@media screen and (max-width: 600px) {
+
+    .hamburger {
+        position: fixed;
+        z-index: 100;
+        top: 1rem;
+        right: 1rem;
+        padding: 4px;
+        border: black solid 1px;
+        border-radius: 2px;
+        background: white;
+        cursor: pointer;
+      }
+
+      .closeIcon {
+        display: none;
+      }  
+      
+      
+.nav-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.4s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: black;
+    list-style: none;
+    padding-top: 4rem;
+  }
+
+ #nav-item a {
+    color: white;
+  }
+
+
+  .showMenu {
+    transform: translateY(0);
+  }
+} /* phone screen query hamburger menu end */
+
+
+/*this gets rid of hamburger on screens bigger than 600px*/
+@media screen and (min-width: 601px) {
+    .hamburger {
+        display: none;
+    } 
+}
+
+
 .nav-container {
     /*border: 3px solid blue;*/
 
