@@ -106,6 +106,26 @@ h1 {
     }
   }
 
+/* ipad/iphone CSS*/
+
+@media screen and (max-width: 1023px) {
+    .about-container {
+        /*border: 2px solid red;*/
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid black;
+        padding: 40px 10px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+}
+
 /* Skills CSS */
 
 #skills {
