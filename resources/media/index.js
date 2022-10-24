@@ -16,12 +16,14 @@ let closeTroyka = document.getElementById('troyka-close');
 let open = function() {
     troykaBiog.style.display = 'block';
     closeTroyka.style.display = 'block';
+    readMoreTroyka.style.display = 'none';
     //readMore.innerHTML = "Troyka Biog";
 }
 
 let close = function() {
     troykaBiog.style.display = 'none';
     closeTroyka.style.display = 'none';
+    readMoreTroyka.style.display = 'block';
     //readMore.innerHTML = "2007-2017";
 }
 
@@ -37,11 +39,13 @@ let closeStrobes = document.getElementById('strobes-close');
 let openStrobesBiog = function() {
     strobesBiog.style.display = 'block';
     closeStrobes.style.display = 'block';
+    readMoreStrobes.style.display = 'none';
 }
 
 let closeStrobesBiog = function() {
     strobesBiog.style.display = 'none';
     closeStrobes.style.display = 'none';
+    readMoreStrobes.style.display = 'block';
 }
 
 readMoreStrobes.addEventListener('click', openStrobesBiog);
@@ -56,11 +60,13 @@ let closeSize = document.getElementById('size-close');
 let openSizeBiog = function() {
     sizeBiog.style.display = 'block';
     closeSize.style.display = 'block';
+    readMoreSize.style.display = 'none';
 }
 
 let closeSizeBiog = function() {
     sizeBiog.style.display = 'none';
     closeSize.style.display = 'none';
+    readMoreSize.style.display = 'block';
 }
 
 readMoreSize.addEventListener('click', openSizeBiog);

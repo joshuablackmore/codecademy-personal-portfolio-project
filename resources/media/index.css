@@ -174,7 +174,7 @@ h1 {
 
 
 
-.date, #oasis-close {
+.date, #oasis-close, #troyka-close, #strobes-close, #size-close {
     border: 1px solid purple;
     padding: 20px;
     
@@ -185,7 +185,7 @@ h1 {
     transition: transform 0.2s;
 }
 
-#oasis-close {
+#oasis-close, #troyka-close, #strobes-close, #size-close {
     display: none;
     font-family: monospace, sans-serif;
     font-weight: 800;
@@ -195,7 +195,7 @@ h1 {
 
 }
 
-#oasis-close:hover {
+#oasis-close:hover, #troyka-close:hover, #strobes-close:hover, #size-close:hover {
     transform: rotate(5deg);
     background-color: red;
     color: white;
@@ -206,15 +206,6 @@ h1 {
 }
 
 
-
-#troyka-close, #strobes-close, #size-close {
-    display: none;
-    background-color: red;
-    color: antiquewhite;
-    padding: 10px;
-    font-weight: 600;
-    border-radius: 5px;
-}
 
 
 .troyka-container, .strobes-container, .size-container, .oasis-container {
