@@ -255,14 +255,19 @@ h1 {
 
 
 .date, #oasis-close, #troyka-close, #strobes-close, #size-close {
-    border: 1px solid purple;
-    padding: 20px;
+    
+    padding: 10px;
     
     margin: 20px 0;    
     background-color: white;
     color: black;
     border-radius: 4px;
     transition: transform 0.2s;
+}
+
+.date {
+    background-color: #FF3972;
+    color: white;
 }
 
 #oasis-close, #troyka-close, #strobes-close, #size-close {
@@ -277,7 +282,7 @@ h1 {
 
 #oasis-close:hover, #troyka-close:hover, #strobes-close:hover, #size-close:hover {
     transform: rotate(5deg);
-    background-color: red;
+    background-color: #FF3972;
     color: white;
 }
 
