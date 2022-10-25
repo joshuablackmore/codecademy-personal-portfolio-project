@@ -316,6 +316,13 @@ h1 {
     margin-bottom: 20px;
 }
 
+@media screen and (max-width: 600px) {
+    .oasis-container, #video-oasis, .size-container, #video-size, .strobes-container, #video-strobes, .troyka-container, #video-troyka {
+        display: block;
+        width: 100%;
+    }
+    }
+
 .troyka-container, .strobes-container, .size-container, .oasis-container {
     display: none;
    
