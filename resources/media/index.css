@@ -1,7 +1,7 @@
-/*html {
-    background-image: linear-gradient(to right, #141e30, #243b55);
+html {
+    background-image: linear-gradient(to left, #141e30, #243b55);
     color: white;
-}*/
+}
 
 body {
     font-family: monospace, sans-serif;
@@ -14,6 +14,10 @@ body {
 
 h1 {
     font-size: 2.5em;
+}
+
+h2 {
+    margin: 0%;
 }
 
 
@@ -125,7 +129,7 @@ h1 {
 .nav-item a {
     padding: 10px;
     font-size: 1.1em;
-    color: black;
+    color: #FF3972;
     text-decoration: none;
 }
 
@@ -152,7 +156,7 @@ h1 {
 /* About CSS */ 
 .about-container {
     /*border: 2px solid red;*/
-
+    
     margin-top: 50px;
     display: flex;
     align-items: center;
@@ -198,22 +202,24 @@ h1 {
 
 /* Skills CSS */
 
-#skills {
+.skills-tittle, .projects-tittle {
+    /*border: 1px solid pink;*/
+    padding: 50px 10px;
+}
 
+
+#skills {
+    /*background-image: linear-gradient(to left, #ed3d6f, #243b55);*/
     /*border: 1px solid pink;*/
     /*margin-top: 30px;*/
     border-bottom: 1px solid black;
     
 }
 
-.skills-tittle, .projects-tittle, .socials-tittle {
-    /*border: 1px solid pink;*/
-    margin: 50px 0;
-}
 
 .skills-container {
-   /* border: 2px solid red; */
-
+   /*border: 2px solid red;*/
+    
     height: 50px;
     display: flex;
     align-items: center;
@@ -335,10 +341,12 @@ h1 {
 
 /* Socials CSS*/
 
+
+
 .socials-container {
     border-bottom: 1px solid black;
-
-    margin-top: 30px;
+    
+    padding-top: 30px;
     display: flex;
     
     align-items: center;
@@ -346,6 +354,11 @@ h1 {
     height: 50px;
     padding-bottom: 50px;
 
+}
+
+.socials-tittle {
+    
+    padding-top: 20px;
 }
 
 
@@ -369,7 +382,8 @@ h1 {
 
 
 .fa-youtube {
-    color: red;
+    color: #FF3972;
+    
     transition: transform 0.5s, color 0.8s;
 }
 
@@ -380,7 +394,8 @@ h1 {
 }
 
 .fa-twitter {
-    color: blue;
+    
+    color: #FF3972;
     transition: transform 0.5s ;
 }
 
@@ -390,7 +405,8 @@ h1 {
 }
 
 .fa-instagram {
-    color: mediumvioletred;
+    
+    color: #FF3972;
     transition: transform 0.5s, color 0.5s;
     
 
