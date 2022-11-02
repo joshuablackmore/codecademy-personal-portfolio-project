@@ -170,7 +170,7 @@ h2 {
     margin: 5px 20px;
 }
 
-#time-container {
+/*#time-container {
     animation: blinker 1s linear infinite;
 }
 
@@ -178,7 +178,7 @@ h2 {
     50% {
       opacity: 0.2;
     }
-  }
+  }*/
 
 /* ipad/iphone CSS*/
 
