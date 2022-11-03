@@ -154,3 +154,4 @@ menuItems.forEach(
   }
 
   pic.addEventListener("click", toggle);
+  pic.addEventListener("touchstart", toggle);
