@@ -140,3 +140,17 @@ menuItems.forEach(
       menuItem.addEventListener("click", toggleMenu);
     }
   )
+
+  /* des bos play*/
+
+  const pic = document.querySelector('.mug-shot');
+  
+  
+
+  console.log(pic.classList);
+
+  function toggle() {
+    pic.classList.toggle('spin');
+  }
+
+  pic.addEventListener("click", toggle);

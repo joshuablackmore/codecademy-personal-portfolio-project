@@ -168,6 +168,14 @@ h2 {
     height: auto;
     border-radius: 100%;
     margin: 5px 20px;
+    
+}
+
+.spin {
+    transform: rotate(1turn);
+    
+    
+    transition: all ease-in 0.5s;
 }
 
 /*#time-container {
@@ -358,7 +366,7 @@ h2 {
 
 .socials-tittle {
     
-    padding-top: 20px;
+    padding: 50px 10px;
 }
 
 
@@ -389,7 +397,7 @@ h2 {
 
 .fa-youtube:hover {
     transform:scale(1.2);
-    color: black;
+    color: white;
     
 }
 
@@ -400,7 +408,7 @@ h2 {
 }
 
 .fa-twitter:hover {
-    color: black;
+    color: white;
     transform: rotate(30deg);
 }
 
@@ -413,7 +421,7 @@ h2 {
 }
 
 .fa-instagram:hover {
-    color: purple;
+    color: white;
     /*padding-bottom: 20px;*/
     transform: rotate(180deg);
 
@@ -441,6 +449,7 @@ h2 {
 .footer-span {
     font-family: 'Press Start 2P', cursive;
     font-size: 0.75em;
+    
 }
 
 
